@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    color: hotpink;
+    margin: 15px 0;
+}
+
+
+
+.btn-group {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: antiquewhite;
+    font-size: 1.2em;
+    background-color: hotpink;
+    border: transparent;
+    border-radius: 30px;
+}
+
+button:nth-child(1) {
+    margin-left: 200px;
+    background-color: hotpink;
+}
+
+button:nth-child(2) {
+    margin-right: -700px;
+    background-color: red;
+}
